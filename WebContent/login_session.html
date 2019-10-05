@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=EUC-KR">
+
+</head>
+<body>
+
+<table border="1" width="500">
+<tr>
+<td align = "center" width = "50%">
+회원로그인
+</td>
+<td align = "center" width = "50%">
+비회원로그인
+</td>
+</tr>
+<tr>
+<td align = "center">
+<br>
+<form action="session-set.jsp" method="post">
+
+  Id : <input type="text" name="id" size="20"><br>
+  Password : <input type="password" name="pw" size="20"><p>
+       <input type="submit" value="submit">
+       <input type="reset" value="cancel">
+</form>
+<br>
+</td>
+<td align = "center">
+<form action="nonlogin-response.jsp" method="post">
+	Ssn : <input type="text" name="ssn" size="20"><br>
+       <input type="submit" value="submit">
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
